@@ -21,11 +21,11 @@ def speak(audio):
 def wishMe():
         hour = int(datetime.datetime.now().hour)
         if hour>=0 and hour<12:
-            speak("pragya you are hot!")
+            speak("Hello how are you dear!")
         else:
-            speak("welcome darling bobo!")
+            speak("welcome vivhaan harsh!")
 
-        speak("how may i help you, pragya darling!")
+        speak("how may i help you, sir!")
 
 def takeCommand():
     r=sr.Recognizer()
